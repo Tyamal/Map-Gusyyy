@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Map Mala</title>
+    <base href="https://mala.github.io/">
+    <script src="https://nantiduluyagusyy.js"></script>
+    <style>
+        html {
+            font-family: 'Roboto Mono', monospace;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            border: none
+        }
+        
+        body {
+            font-size: 16px;
+            color: #bbb;
+            height: 100%;
+            margin: 0px;
+            padding: 0px;
+            background-color: #222;
+        }
+        
+        h1 {
+            color: #049EF4;
+        }
+        
+        a {
+            font-size: 16px;
+        }
+        
+        a:link,
+        a:visited,
+        a:active {
+            color: #bbb;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            color: #049EF4;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        /* .split {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .gutter {
+            background-color: #eee;
+            background-repeat: no-repeat;
+            background-position: 50%;
+        }
+
+        .gutter.gutter-horizontal {
+            background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAeCAYAAADkftS9AAAAIklEQVQoU2M4c+bMfxAGAgYYmwGrIIiDjrELjpo5aiZeMwF+yNnOs5KSvgAAAABJRU5ErkJggg==');
+            cursor: col-resize;
+        } */
+        
+        .main {
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+        }
+        /* .child {
+            background-color: lightgrey;
+        } */
+        
+        #pluginlist {
+            color: #999;
+            /* background-color: #000; */
+            height: 100%;
+        }
+        
+        #pluginview {
+            background-color: #333;
+            height: 100%;
+            width: 100%;
+        }
+        
+        .gutter {
+            width: 10px;
+            background-color: #000;
+            background-repeat: no-repeat;
+            background-position: 50%;
+        }
+        
+        .gutter.gutter-horizontal {
+            background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAeCAYAAADkftS9AAAAIklEQVQoU2M4c+bMfxAGAgYYmwGrIIiDjrELjpo5aiZeMwF+yNnOs5KSvgAAAABJRU5ErkJggg==');
+            cursor: col-resize;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="main">
+        <div id="pluginlist" class="child">
+            <h1>Map Mala</h1>
+            <h2>Sampel</h2>
+            <!-- <p><a href="examples/mapbox-gl-indoor.html" target="iframe_example">mapbox-gl-indoor</a></p>
+    <p><a href="examples/mapboxium.html" target="iframe_example">mapboxium</a></p> -->
+
+            <p><a href="examples/maplibre-gl-raster.html" target="iframe_example">Map Street</a></p>
+            <p><a href="examples/maplibre-gl-geocoder.html" target="iframe_example">Mala search</a></p>
+            <p><a href="examples/maplibre-indoor.html" target="iframe_example">Indoor view</a></p>
+            <p><a href="examples/maplibre-indoor-shape-building.html" target="iframe_example">Indro dan tingkat</a></p>
+            <p><a href="examples/maplibre-indoor-shape-building_multicentro.html " target="iframe_example">Multi Fitur</a></p>
+            <!-- <p><a href="examples/mapbox-gl-openindoor.html" target="iframe_example">mapbox-gl-openindoor</a></p> -->
+            <p>
+                <a href="examples/oid5-frontend/index.html" target="iframe_example">Bangunan</a>
+            </p>
+            <p><a href="examples/maplibre-gl-tegola.html" target="iframe_example">Map Mala</a></p>
+            <p><a href="examples/maplibre-immersive.html" target="iframe_example">View Map</a></p>
+            <p><a href="examples/maplibre-WIPSE.html" target="iframe_example">Bangunan Kantor</a></p>
+            <!-- <p><a href="examples/maplibre-building-footprint.html" target="iframe_example">Building footprint (debian)</a></p> -->
+            <p><a href="examples/maplibre-building-footprint-val.html" target="iframe_example">Bangunan (val)</a></p>
+            <!-- <p><a href="examples/gallery.html" target="iframe_example">Gallery</a></p> -->
+            <p><a href="examples/art_gallery_V3.html" target="iframe_example">gallery</a></p>
+            <!-- <p><a href="examples/aframe-mapbox-component.html" target="iframe_example">aframe-mapbox-component</a></p> -->
+            <!-- <p><a href="examples/uratutabaa.html" target="iframe_example">uratutabaa</a></p> -->
+            <p><a href="examples/VisiteGallery/index.html" target="iframe_example">Gallery (aframe)</a></p>
+            <!-- <p><a href="examples/maplibre-gl-api-mvt.html" target="iframe_example">api-mvt.openindoor.io</a></p> -->
+            <p><a href="examples/maplibre-gl-rapidapi-header.html" target="iframe_example">API by header</a></p>
+            <p><a href="examples/maplibre-gl-rapidapi-query.html" target="iframe_example">API by query</a></p>
+            <p><a href="examples/autocad/index.html" target="iframe_example">AutoCAD import</a></p>
+
+            <p><a href="examples/3d/photoSphere3d/index.html" target="iframe_example">PhotoSph3d</a></p>
+            <p><a href="examples/camera/camera_movement/index.html" target="iframe_example">Kamera movement</a></p>
+            <p><a href="examples/Rh-colored/site/index.html" target="iframe_example">Rh-colored</a></p>
+            <p><a href="examples/immersive-camera/index.html" target="iframe_example">Immersive sudut</a></p>
+            <p><a href="examples/immersive-camera_02/index.html" target="iframe_example">Immersive sudut 2</a></p>
+            
+            <p><a href="examples/wft02/index.html" target="_blank">Archgis Mala</a></p>
+
+            <p><a href="./examples/floor-animation/index.html" target="iframe_example">Mal' animation</a></p>
+
+
+
+            <!-- <p><a href="javascript:load_target('examples/maplibre-gl-tegola.html');">maplibre-gl-tegola</a></p>
+    <p><a href="javascript:load_target('examples/maplibre-immersive.html');">maplibre-immersive</a></p>
+    <p><a href="javascript:load_target('examples/maplibre-building-footprint.html');">maplibre-building-footprint</a></p> -->
+        </div>
+        <div id="pluginview" class="child" name="mainpage">
+            <iframe src="examples/maplibre-WIPSE.html" name="iframe_example" frameborder="0" style="width:100%;height:100%;"></iframe>
+        </div>
+    </div>
+    <script>
+        var exploreSplit = Split(['#pluginlist', '#pluginview'], {
+            sizes: [20, 80]
+        });
+        // function load_target(html_page) {
+        //     document.getElementById("pluginview").innerHTML = '<object type="text/html" data="' + html_page + '" ></object>';
+        // }
+    </script>
+</body>
+
+</html>
